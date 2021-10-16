@@ -1,0 +1,110 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    async (1.30.1)
+      console (~> 1.10)
+      nio4r (~> 2.3)
+      timers (~> 4.1)
+    async-http (0.56.5)
+      async (>= 1.25)
+      async-io (>= 1.28)
+      async-pool (>= 0.2)
+      protocol-http (~> 0.22.0)
+      protocol-http1 (~> 0.14.0)
+      protocol-http2 (~> 0.14.0)
+    async-io (1.32.2)
+      async
+    async-pool (0.3.9)
+      async (>= 1.25)
+    async-websocket (0.19.0)
+      async-http (~> 0.54)
+      async-io (~> 1.23)
+      protocol-websocket (~> 0.7.0)
+    console (1.13.1)
+      fiber-local
+    discorb (0.11.1)
+      async (~> 1.30.1)
+      async-http (~> 0.56.5)
+      async-websocket (~> 0.19.0)
+      mime-types (~> 3.3)
+    discordrb (3.4.0)
+      discordrb-webhooks (~> 3.3.0)
+      ffi (>= 1.9.24)
+      opus-ruby
+      rest-client (>= 2.0.0)
+      websocket-client-simple (>= 0.3.0)
+    discordrb-webhooks (3.3.0)
+      rest-client (>= 2.1.0.rc1)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    event_emitter (0.2.6)
+    ffi (1.15.4-x64-mingw32)
+    fiber-local (1.0.0)
+    http-accept (1.7.0)
+    http-cookie (1.0.4)
+      domain_name (~> 0.5)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2021.0901)
+    netrc (0.11.0)
+    nio4r (2.5.8)
+    opus-ruby (1.0.1)
+      ffi
+    parallel (1.21.0)
+    parser (3.0.2.0)
+      ast (~> 2.4.1)
+    protocol-hpack (1.4.2)
+    protocol-http (0.22.5)
+    protocol-http1 (0.14.2)
+      protocol-http (~> 0.22)
+    protocol-http2 (0.14.2)
+      protocol-hpack (~> 1.4)
+      protocol-http (~> 0.18)
+    protocol-websocket (0.7.5)
+      protocol-http (~> 0.2)
+      protocol-http1 (~> 0.2)
+    rainbow (3.0.0)
+    regexp_parser (2.1.1)
+    rest-client (2.1.0-x64-mingw32)
+      ffi (~> 1.9)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rexml (3.2.5)
+    rubocop (1.22.1)
+      parallel (~> 1.10)
+      parser (>= 3.0.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.12.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.12.0)
+      parser (>= 3.0.1.1)
+    ruby-progressbar (1.11.0)
+    timers (4.3.3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8-x64-mingw32)
+    unicode-display_width (2.1.0)
+    websocket (1.2.9)
+    websocket-client-simple (0.3.0)
+      event_emitter
+      websocket
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  discorb
+  discordrb
+  rubocop
+
+RUBY VERSION
+   ruby 3.0.2p107
+
+BUNDLED WITH
+   2.2.29
